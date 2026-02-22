@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma premiere page HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .bouton{
+            background-color: aqua;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline;
+        }
+        #bouton-1{
+            background-color: brown;
+        }
+        #bouton-2{
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        alert('bienvenue sur mon site')
+    </script>
+</head>
+<body>
+    <header>
+        <h1> Comment coder</h1>
+        <nav>
+            <ul>
+                <li><a href="div.html">Initiation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+           <h2>Acticle de blog</h2>
+           <article>
+            <h3>Mon super article</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto mollitia qui dolor quis culpa ad quaerat libero sapiente.</p>
+            <p> <strong>L'introduction de mon article blog reume en un paragraphe</strong></p>
+        </article>
+        </section>
+        <section>
+        <h2> Tableaux</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Prenom</th>
+                        <th>Age</th>
+                        <th>Moyenne</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice</td>
+                        <td>24</td>
+                        <td>16/20</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>25</td>
+                        <td>14/20</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td>2</td>
+                    <td>24.5</td>
+                    <td>15/20</td>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>Input texte</h2>
+            <input type="text">
+            <br>
+            <br>
+            <textarea 
+                rows="5" 
+                cols="50"
+                placeholder="Mon super textarea"
+            ></textarea>
+        </section>
+        <section>
+            <h2>Autres</h2>
+            <code>print{"Bonjour"}</code>
+        </section>
+        <section>
+            <h2>Boutons</h2>
+            <div class="bouton" id="bouton-1">Bouton 1</div>
+            <div class="bouton" id="bouton-2">Bouton 2</div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h5>Reseaux sociaux</h5>
+            <ol>
+                <li><a href="https://www.youtube.com/watch?v=p6uF-p_x94k">Youtube</a></li>
+            </ol>
+        </div>
+Commentcoder 2024
+    </footer>
+</body>
+</html>
